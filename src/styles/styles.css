@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.main-button{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 0;
+    font-size: 18px;
+    background-color: #9df2e4;
+    box-shadow: 0 0 4px #242424;
+    border: 0;
+}
+
+.input{
+    width: 21rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 0 0 4px 0 #242424;
+    text-align: center;
+
+}
+
+.div-input{
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-country-graph{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 1000px;
+}
+
+.Container-line-chart-deaths{
+    margin-bottom: 50px;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+.link{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.links-container{
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header{
+    background-color: #c1c1c1;
+}
+
+/* COMPARE PAGE */
+/* COMPARE PAGE */
+/* COMPARE PAGE */ 
+
+.country-container-first, .compare-stats, .country-container-second{
+    display: inline-block;
+    width: 450px;
+}
+
+.compare-stats{
+    width: 200px;
+}
+
+.country-container-first{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.country-container-second{
+    margin-right: auto;
+}
+
+.compare-countries-container{
+    display: flex;
+    font-size: 18px;
+}
+
+.compare-countries-container li{
+    margin-bottom: 6px;
+}
+
+ul{
+    list-style-type: none
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.compare-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* WORLD DATA */
+/* WORLD DATA */
+/* WORLD DATA */
+
+.map-text{
+    text-align: center;
+}
+
+.pie-chart-text{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.pie-chart{
+    width: 350px;
+    display: inline-block;
+    margin-left: 50px;
+    height: 400px;
+}
+
+.pie-chart-stats{
+    width: 400px;
+    min-width: 300px;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+}
+
+.pie-chart-stats li{
+    margin-bottom: 6px;
+}
+
+.container-pie-chart{
+    display: flex;
+
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .container-pie-chart{
+        display: block;
+        margin-bottom: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .pie-chart-stats{
+        margin-left: 0px
+    }
+}
+
+.container-world-map{
+    margin-bottom: 50px;
+}
+
+.world-data-table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid #ececec;
+    text-align: left;
+    padding: 8px;
+    font-weight:normal;
+}
+
+tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+/* PAGE TITLE */
+/* PAGE TITLE */
+/* PAGE TITLE */
+
+.page-title{
+    margin-left: 10%;
+    margin-bottom: 40px;
+    font-size: 19px;
+}
+
+
+/* HOME PAGE */
+
+.homepage-text{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.8
+}
